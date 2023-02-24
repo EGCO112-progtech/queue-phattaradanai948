@@ -39,7 +39,7 @@ int main(int argc , char **argv) {
     }
    printf("======================================\n");
     if(q.size==1 || q.size==0)  printf("There is %d ppl left in the queue\n",q.size);
-   else printf("There are %d ppl left in the queue",q.size);
+   else printf("There are %d ppl left in the queue\n",q.size);
   
     printf("Clearing queue\n");
     while(q.size>0)
